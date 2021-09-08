@@ -1,0 +1,11 @@
+.restaurantContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    .singleRestaurant {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
